@@ -1,0 +1,391 @@
+  body{
+    font-family:
+      ten-mincho, 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;  
+  }
+header{
+  background-image: url("../Chatwork/title/img_hero_bg.png");
+  width: 1520px;
+  height: 550px;
+  padding-top:90px; 
+}
+.circle{
+  text-align: center;
+  background-image: url(../Chatwork/title/img_hero_circle.png);
+  
+  background-size: contain;
+  /* contain:画像を枠（630px×500px)に合わせる */
+  background-repeat: no-repeat; 
+  width: 630px;
+  height: 500px;
+  margin-top:50px; 
+  margin-left: auto;
+  margin-right: auto;
+   
+ 
+}
+.title{
+  padding-top: 90px;
+  width: 250px;
+}
+.circle p{
+  margin-top: 170px;
+ font-weight: bold;
+  
+}
+
+header::after{
+  content:"";
+  display: block;
+  /* width: 100%; */
+  height: 20px;
+ background-image: url(../Chatwork/title/img_aim_circle_sp_bottom.png);
+ background-size: contain;
+}
+
+/* main */
+
+main{
+  width: 960px;
+ margin: 50px auto 50px;
+}
+.life{
+  display: flex;
+  margin: 20px 0; 
+}
+
+.a{
+  width: 200px;
+  height: 100px;
+  background-color: #E82323;
+  font-size: 36px;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  }
+
+  .a::after{
+    content: "";
+    position: relative;
+    bottom: 9px;
+    display: block;
+    width: 100%;
+    border-top: #fff solid 1px;
+  }
+
+  .aa{
+    width: 760px; 
+    height: 100px; 
+    margin-left: 25px;
+    font-size: 16px;
+  }
+
+  .aa h1{
+    margin: 0;
+    color: #E82323;
+  }
+
+  .aa div{
+    line-height: 1.4em;
+  }
+
+  .b{
+    width: 200px;
+    height: 100px;
+    background-color: #E82323;
+    font-size: 36px;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+  }
+  .b::after{
+    content: "";
+    position: relative;
+    bottom: 9px;
+    display: block;
+    width: 100%;
+    border-top: #fff solid 1px;
+  }
+
+  .bb{
+    width: 760px; 
+    height: 100px; 
+    margin-left: 25px;
+    font-size: 24px;
+    color: #E82323;
+  }
+
+  .servius{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .servius li{
+    width: 30%;
+    font-weight: bold;
+  }
+
+  .servius img{
+    width: 300px;
+  }
+
+  .servius dt{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+
+  .servius dd{
+    margin: 0;
+    line-height: 1.4em;
+  }
+
+
+
+  /* .servius section{
+    width: 300px;
+    font-family: ten-mincho, 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  }
+
+.servius h1{
+  display: inline-block;
+   text-align: center;
+  } */ 
+
+  /* 2018年これからの働き方というタイトル */
+.future-woker img{
+  width: 600px;
+  }
+
+/* 四つの画像のところ */
+.future{
+  width: 950px;
+  margin-left: auto ;
+  margin-right: auto;
+  text-align: center;
+}
+.future-time{
+  list-style-type: none;
+  width: 49.5%;
+  /* height: 370px; */
+  background-color: #FFF8DC;
+  margin-bottom: 10px; 
+} 
+
+.future-img img{
+  /* object-fit: contain; */
+  width: 280px;
+}
+
+.future-time dl{
+   text-align: center;
+ }
+
+ .future-time dt{
+   font-size: 28px;
+ }
+
+ .future-wrap{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-content: space-between;
+   margin: 0;
+   width: 90%;
+ }
+ .future-att{
+   text-align: start;
+   font-size: 14px;
+   }
+.future-att p{
+  line-height: 1em;
+  margin:0 ;
+  padding: 0;
+  display: inline-block;
+}
+
+.future-arrow img{
+  width: 165px;
+  height: 100px;
+  margin: 50px;
+}
+
+.future-prob{
+  display: flex;
+  justify-content: space-between;
+}
+
+.future-prob-f{
+  width: 33%;
+  list-style-type: none;
+}
+.future-prob-f img{
+  width: 100%;
+}
+.future-prob-f h1{
+  font-size: 28px;
+}
+.future-prob-f p{
+  font-size: 16px;
+  text-align: start;
+}
+
+/* 目指すもの */
+.aimto{
+  background-image: url(../Chatwork/aimto/img_aim_circle.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+  height: 800px;
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+}
+.aimto-list{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1em;
+  list-style-type: none;
+  text-align: start;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.aimto h1 img{
+  width: 600px;
+}
+.aimto p{
+  margin: 30px 80px;
+  font-size: 16px;
+}
+
+.aimto-list p{
+  margin: 0;
+}
+.aimto-list-img{
+  width: 25%;
+}
+.aimto-list-img img{
+ width: 100%;
+
+}
+
+.new-project{
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.new-project-img{
+  height: 235px;
+  background-color: #E82323;
+  line-height: 235px;
+  color: #fff;
+  text-align: center;
+  width: 25%;
+  }
+
+  .new-project-img img{
+width: 80%;
+margin-top: 50px;
+  }
+
+  .new-project-img::after{
+    content: "";
+    position: relative;
+    bottom: 70px;
+    display: block;
+    width: 90%;
+    border-top: #fff solid 1px;
+  }
+
+  .new-project-text{
+    width: 65%;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.4em;
+  }
+  .new-project-text p{
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .tanigami{
+    margin-left: auto;
+    margin-right: auto; 
+    width: 70%;
+  }
+  .tanigami h1{
+    border-bottom: #E82323 solid 3px;
+    margin: 0;
+  }
+  .tanigami h1 img{
+    width: 439px;
+  }
+
+  .tanigami span{
+    margin: 0;
+  }
+  .tanigami span img{
+    width: 200px;
+  }
+  .tanigami p{
+    color: #E82323;
+    font-weight: bold;
+  }
+
+  .tanigami-detail {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: 80px;
+    background-color: #E82323;
+    text-align: center;
+    border-radius: 5%;
+  }
+  .tanigami-detail a {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 80px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  footer{
+    background-color: black;
+    height: 80px;
+    text-align: center;
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+   
+  }
+  footer img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+
+    
+  }
+
+
+
+
+
+
+
+
+
+
